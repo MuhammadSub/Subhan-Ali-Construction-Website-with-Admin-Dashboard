@@ -1,0 +1,1 @@
+<a href="#" class="BackToTop text-center" id="back2Top" title="Back To Top" class="smooth-scroll">&#10148;</a>

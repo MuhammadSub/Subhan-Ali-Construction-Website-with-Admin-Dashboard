@@ -1,0 +1,74 @@
+/*--Add your bussiness*/
+
+.addbus{
+    margin-top: 30px;
+}
+.addbus .service-wrap{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;   
+}
+.addbus .service-wrap::before, .service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #05878a;       
+}
+.addbus .service-wrap::before{
+    top: -37px;
+    left: 100%;     
+}
+.addbus .service-wrap:hover:before{    
+    left: -27px;
+    opacity: 1;  
+}
+.addbus .service-wrap::after{
+     right: 100%;
+     bottom: -37px;   
+}
+.addbus .service-wrap:hover:after{
+     right: -27px;
+     opacity: 1;  
+}
+.addbus .service-wrap:hover{
+     color: white;    
+}
+.addbus .service-wrap:h3{
+     color: white;    
+}
+.addbus .service-wrap:hover h3{
+     color: white;    
+}
+.addbus .service-wrap:hover h3:after{
+     background-color: white;    
+}
+.addbus .service-icon i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s;  
+}
+.addbus .service-wrap:hover .service-icon i{
+    
+    transform:rotate(360deg);
+}
+.addbus .service-wrap h3{
+    font-size: 25px;
+	color: #131212;
+    font-weight: 500;
+    padding-bottom: 10px;
+    position: relative;  
+}
+.addbus .service-wrap p{
+	color: #131212;
+    font-size: 13px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,108 @@
+/*--contcat head start--*/
+.contacthead{
+    width: 100%;
+    height: 400px;
+    background-image: url("..//img/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;   
+}
+.contacthead-overlay{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.65);
+    position: relative;
+}
+.contacthead-content{
+    position: absolute;
+    top: 45%;
+	width: 100%;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+/*--contcat head End--*/
+
+/*--contact start--*/
+.contact-area{
+    margin-top: 80px;
+}
+.contactus {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 40px 0 40px 0 ;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+}
+.contactus h2{
+	text-transform: uppercase;
+}
+.contact-form .content{
+	margin: 30px 0px 30px 0px;
+    position: relative;
+}
+
+.form-control{
+    border-radius: px !important;
+    border: 1px solid #797676 !important;
+}
+
+.contact-form button.conbtn{
+    padding: 12px 43px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right:10px;
+}
+.contact-form button.btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #05878a;
+    border-color: #05878a;   
+}
+
+.border-bottom-now{
+    width: 40px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+.contact-infos{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    background: darkcyan;
+    padding-top: 35px;
+    padding-bottom: 35px; 
+}
+.contact-infos .fa{
+    color: white;
+    font-size: 26px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;  
+}
+.contact-infos p{
+    color: white;
+    margin-top: 15px;
+    
+}
+ 
+/*--contact end--*/
+
+/*--Map start--*/
+.maps{
+    margin-top: -30px;
+	margin-bottom: -10px;
+}
+/*--Map end--*/
